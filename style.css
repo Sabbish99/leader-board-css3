@@ -192,3 +192,79 @@ hr {
     padding: 0px 10px;
 
 }
+
+
+
+
+/*  -----------------------------
+--------------------------
+-------------------------media query media query---------------------
+---------------------------
+---------------------- */
+
+
+
+
+
+
+/*------------
+------------- mobile devices------
+       ---------- */
+@media screen and (max-width:688px) {
+    header {
+        width: auto;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .blogs,
+    .latest-courses {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+
+    }
+
+    .player,
+    .blog {
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+/* ipad  devices*/
+@media screen and (min-width:688px) and (max-width:992px) {
+    header {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+
+
+    .latest-courses {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+        justify-content: center;
+
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+
+    }
+
+
+}
