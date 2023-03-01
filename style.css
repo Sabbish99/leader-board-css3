@@ -1,7 +1,58 @@
+* {
+    margin: 0px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f3f1ff;
 }
+
+/*----------------
+----------------- header----------
+---------- */
+header {
+    background-color: #562eff;
+}
+
+.headers {
+
+    width: 870px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-idea {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    color: white;
+}
+
+.header-nav img {
+    height: 51px;
+    width: 51px;
+}
+
+.header-idea p {
+    margin-left: 15px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.headers img {
+    height: 51px;
+    width: 41px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
 
 /* top players style */
 main {
@@ -65,6 +116,8 @@ hr {
 
 .blog {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blog img {
